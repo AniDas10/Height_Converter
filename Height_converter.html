@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Height_Converter</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+</head>
+<body>
+	<style type="text/css">
+		body{
+			margin-top: 50px;
+			background: #666;
+			font-style: Arial;
+		}
+	</style>
+	<div class="container-fluid">
+		<div class="row ">
+			<div class="col-md-6 offset-3 col-sm-6 offset-3 align-middle">
+				<h1 class="display-4 text-center">Height Converter</h1><br>
+				<form>
+					<div class="form-group">
+						<input type="number" id="cms" class="form-control form-control-lg" placeholder="Enter Height in CM">
+					</div>
+					<div id="Output">
+						
+						<div class="card card-text-white bg-danger card-body mb-2">
+							<h5>Metres :: </h5>
+							<div id="Metres"></div>
+						</div>
+						<div class="card mb-2 card-body card-text-white bg-warning">
+							<h5>Feet :: </h5>
+							<div id="Feet"></div>
+						</div>
+						<div class="card mb-2 card-body card-text-white bg-info">
+							<h5>Inches :: </h5>
+							<div id="Inches"></div>
+						</div>
+					</div>					
+				</form>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="Height_Converter.js"></script>
+</body>
+</html>
